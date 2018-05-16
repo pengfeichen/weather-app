@@ -1,0 +1,24 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pengfeichen/weather-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pengfeichen/weather-app/issues"
+  },
+  "homepage": "https://github.com/pengfeichen/weather-app#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "request": "^2.86.0",
+    "yargs": "^11.0.0"
+  }
+}
