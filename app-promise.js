@@ -14,7 +14,7 @@ const argv = yargs
   .alias('help', 'h')
   .argv;
 
-var encodedAddress = encodeURIComponent(argv.a = 'Pangudaguan');
+var encodedAddress = encodeURIComponent(argv.a);
 geocodeUrl = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodedAddress}&key=AIzaSyDhmuTWrLybkeGFMspf9gCC1p1U8f_3OoQ`;
 
 axios.get(geocodeUrl).then((response) => {
